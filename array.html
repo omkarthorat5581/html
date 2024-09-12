@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Array Object Methods Demo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .method-demo {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>Array Object Methods Demo</h1>
+
+<script>
+    let arr = [1, 2, 3, 4, 5];
+
+    // Method 1: arr.length
+    document.write("<div class='method-demo'>");
+    document.write("<h2>arr.length</h2>");
+    document.write("<p>Length of the array: " + arr.length + "</p>");
+    document.write("</div>");
+
+    // Method 2: arr.push()
+    arr.push(6);
+    document.write("<div class='method-demo'>");
+    document.write("<h2>arr.push()</h2>");
+    document.write("<p>Array after pushing 6: " + arr + "</p>");
+    document.write("</div>");
+
+    // Method 3: arr.pop()
+    let poppedElement = arr.pop();
+    document.write("<div class='method-demo'>");
+    document.write("<h2>arr.pop()</h2>");
+    document.write("<p>Popped element: " + poppedElement + "</p>");
+    document.write("<p>Array after popping: " + arr + "</p>");
+    document.write("</div>");
+
+    // Method 4: arr.join()
+    let joinedArray = arr.join("-");
+    document.write("<div class='method-demo'>");
+    document.write("<h2>arr.join()</h2>");
+    document.write("<p>Joined array: " + joinedArray + "</p>");
+    document.write("</div>");
+
+    // Method 5: arr.reverse()
+    arr.reverse();
+    document.write("<div class='method-demo'>");
+    document.write("<h2>arr.reverse()</h2>");
+    document.write("<p>Reversed array: " + arr + "</p>");
+    document.write("</div>");
+</script>
+
+</body>
+</html>

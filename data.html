@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Date Object Methods Demo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .method-demo {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>Date Object Methods Demo</h1>
+
+<script>
+    // Method 1: new Date()
+    let currentDate = new Date();
+    document.write("<div class='method-demo'>");
+    document.write("<h2>new Date()</h2>");
+    document.write("<p>Current date: " + currentDate + "</p>");
+    document.write("</div>");
+
+    // Method 2: getFullYear()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>getFullYear()</h2>");
+    document.write("<p>Current year: " + currentDate.getFullYear() + "</p>");
+    document.write("</div>");
+
+    // Method 3: getMonth()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>getMonth()</h2>");
+    document.write("<p>Current month (0-indexed): " + currentDate.getMonth() + "</p>");
+    document.write("</div>");
+
+    // Method 4: getDate()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>getDate()</h2>");
+    document.write("<p>Current day of the month: " + currentDate.getDate() + "</p>");
+    document.write("</div>");
+
+    // Method 5: toDateString()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>toDateString()</h2>");
+    document.write("<p>Date as a string: " + currentDate.toDateString() + "</p>");
+    document.write("</div>");
+</script>
+
+</body>
+</html>

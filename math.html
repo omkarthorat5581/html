@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math Object Methods Demo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .method-demo {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>Math Object Methods Demo</h1>
+
+<div class="method-demo">
+    <h2>Math.abs()</h2>
+    <p>Absolute value of -5: <span id="absValue"></span></p>
+</div>
+
+<div class="method-demo">
+    <h2>Math.sqrt()</h2>
+    <p>Square root of 25: <span id="sqrtValue"></span></p>
+</div>
+
+<div class="method-demo">
+    <h2>Math.random()</h2>
+    <p>Random number between 0 and 1: <span id="randomValue"></span></p>
+</div>
+
+<div class="method-demo">
+    <h2>Math.floor()</h2>
+    <p>Floor of 4.6: <span id="floorValue"></span></p>
+</div>
+
+<div class="method-demo">
+    <h2>Math.max()</h2>
+    <p>Maximum of 10, 20, 30: <span id="maxValue"></span></p>
+</div>
+
+<script>
+    // Method 1: Math.abs()
+    document.getElementById("absValue").innerText = Math.abs(-5);
+
+    // Method 2: Math.sqrt()
+    document.getElementById("sqrtValue").innerText = Math.sqrt(25);
+
+    // Method 3: Math.random()
+    document.getElementById("randomValue").innerText = Math.random();
+
+    // Method 4: Math.floor()
+    document.getElementById("floorValue").innerText = Math.floor(4.6);
+
+    // Method 5: Math.max()
+    document.getElementById("maxValue").innerText = Math.max(10, 20, 30);
+</script>
+</body>
+</html>

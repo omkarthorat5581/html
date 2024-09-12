@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>String Object Methods Demo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .method-demo {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<h1>String Object Methods Demo</h1>
+
+<script>
+    let str = "Hello, World!";
+
+    // Method 1: str.length
+    document.write("<div class='method-demo'>");
+    document.write("<h2>str.length</h2>");
+    document.write("<p>Length of the string: " + str.length + "</p>");
+    document.write("</div>");
+
+    // Method 2: str.toUpperCase()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>str.toUpperCase()</h2>");
+    document.write("<p>Uppercase: " + str.toUpperCase() + "</p>");
+    document.write("</div>");
+
+    // Method 3: str.toLowerCase()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>str.toLowerCase()</h2>");
+    document.write("<p>Lowercase: " + str.toLowerCase() + "</p>");
+    document.write("</div>");
+
+    // Method 4: str.indexOf()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>str.indexOf()</h2>");
+    document.write("<p>Index of 'World': " + str.indexOf("World") + "</p>");
+    document.write("</div>");
+
+    // Method 5: str.split()
+    document.write("<div class='method-demo'>");
+    document.write("<h2>str.split()</h2>");
+    document.write("<p>Splitting at comma: " + str.split(",") + "</p>");
+    document.write("</div>");
+</script>
+
+</body>
+</html>
