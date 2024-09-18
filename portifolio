@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #87CEEB;
+        line-height: 1.6;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background: #333;
+        color:#FFA500;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin-bottom: 10px;
+    }
+    
+    .about, .education, .skills {
+        padding: 20px 0;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    ul li {
+        background: #fff;
+        margin: 10px 0;
+        padding: 10px;
+        border-left: 4px solid #333;
+    }
+    
+    footer {
+        background: #333;
+        color: #FFA500;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Thorat Omkar</h1>
+            <p>Student at Vignan University</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am Thorat Omkar, currently pursuing my degree at Vignan University. I have a passion for Playing games(Sports), web development, programming, and technology. I love learning new things and applying them in projects.</p>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Technology - Vignan University (2020-2024)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+ <li>Sports</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, C++</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thorat Omkar. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
